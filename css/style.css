@@ -1,0 +1,451 @@
+body{
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+    height:300px;
+    text-decoration: none;
+    font-size: 110%;
+    position: absolute;
+    left: -10%;
+    
+}
+
+.g1{
+  position: absolute;
+top: 2%;
+left: 70%;
+}
+
+
+.button {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 15p% 32%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 4% 2%;
+  cursor: pointer;
+  position: absolute;
+  top: 38%;
+  width: 30%;
+  height:15%;
+left: -2%;
+}
+
+.button1{
+  background-color:white;
+  border: solid;
+  border-color: dodgerblue;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+    top: 45%;
+    left:32%;
+    width:30%;
+    height:15%;
+}
+
+#lb1 {
+  background-color: white; 
+  border: 1px solid white; 
+  color: black; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#lb2{
+    background-color: white; 
+  border: 1px solid white; 
+  color: black; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#lb3{
+    background-color: white; 
+  border: 1px solid white; 
+  color: black; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+#lb4{
+  background-color: white; 
+  border: 1px solid white; 
+  color: black; 
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.btn-group{
+    position: absolute;
+    top: 800px;
+    left: 464px;
+}
+
+
+.btn-group button:hover {
+  border-color:dodgerblue;
+}
+
+.ct{
+  position: absolute;
+  background-color:whitesmoke;
+  table-layout: auto;
+  top:200px;
+  left:200px;
+   height: 250px;
+   width: 1200px;
+}
+
+
+.tab{
+    position: absolute;
+    top: 250px;
+    left: 376px;
+
+}
+
+.cserve h1{
+    position: absolute;
+    top: 700px;
+    left: 594px;
+}
+
+.cserve p{
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    color: darkgrey;
+}
+
+.switch {
+  position:absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 900px;
+  left: 684px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.s1{
+    position: absolute;
+    top: 890px;
+    left:610px;
+}
+
+.s3{
+    position: absolute;
+    top: 910px;
+    left: 605px;
+    color: darkgray;
+}
+
+.s2{
+    position: absolute;
+    top: 890px;
+    left: 770px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width:45%;
+  padding: 0 0px;
+}
+
+
+.row {margin: 0 -10px;
+  position: absolute;
+  top:990px;
+  left:400px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 228px;
+  width: 228px;
+
+  
+}
+
+.card3 h4{
+    font-size: 200%;
+    color: dodgerblue;
+}
+
+.card3 p{
+    color: dimgray;
+    font-size: 15px;
+    font-family:inherit;
+    top: 945px;
+}
+
+.card h4{
+    font-size: 200%;
+    color:black;   
+}
+
+.card p{
+    font-size: 15px;
+    font-family:inherit;
+    color: dimgray;
+}
+
+#p1{
+    color: black;
+}
+
+.column :hover{
+    border: solid;
+    border-color:gainsboro;
+    box-sizing: content-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 0 0px;
+}
+
+.column1 :hover{
+    border: solid;
+    border-color:gainsboro;
+    box-sizing: content-box;
+}
+
+
+
+.row1 {margin: 0 -5px;
+  position: absolute;
+  top:980px;
+  left:776px;
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 700px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.w1{
+    position: absolute;
+    top: 1350px;
+    left: 550px;
+    font-size:20px;
+}
+
+.w2{
+    position: absolute;
+    top: 1400px;
+    left: 695px;
+    font-size: 35px;
+    color: dodgerblue;
+}
+
+.w3{
+    position: absolute;
+    top: 1450px;
+    left: 720px;
+    font-size: 15px;
+    color: dimgray;
+    width: 290px;
+}
+
+.w4{
+    position: absolute;
+    top: 1570px;
+    left: 720px;
+    font-size: 18px;
+}
+
+.w5{
+    position: absolute;
+    top: 1605px;
+    left: 720px;
+    font-size: 18px;
+    color: dimgray;
+}
+
+.im{
+    position: absolute;
+    top: 1420px;
+    left: 400px;
+    
+}
+
+.ls1{
+    position: absolute;
+    top: 1710px;
+    left: 300px;
+    width: 434px;
+    
+}
+
+.ls2{
+    position: absolute;
+    top: 1840px;
+    left: 300px;
+    width: 350px;
+}
+
+.btt1{
+    
+    background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 1950px;
+  left: 300px;
+  width: 200px;
+  height:40px;
+}
+
+.im1{
+    position: absolute;
+    top: 1730px;
+    left: 900px;
+}

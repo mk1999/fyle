@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Looking for a lollipop alternative?">
+    <meta name="keywords" content="Lorem ipsum is a simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s ">
+    <title>Fyle Web Development</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+       let pkg = 0;
+       let dat = 100;
+        function calc(adat){
+        
+                dat = adat;
+                let lrate = dat*1;
+                let irate = dat*2;
+            let ypl = lrate/2;
+            let yic = irate/2;
+            
+       if(pkg==0){
+           lrate=lrate*0.5;
+           irate=irate*0.5;
+        }
+         
+        document.getElementById('sid').innerHTML=dat;
+        document.getElementById('sid2').innerHTML=dat;
+        document.getElementById('lp').innerHTML=lrate;
+        document.getElementById('ic').innerHTML=irate;
+        document.getElementById('diff').innerHTML=(irate-lrate);
+        tg();
+        }
+        function tg(){
+            if(pkg==0){
+                pkg=1;
+               document.getElementById('ym1').innerHTML="per year";
+                document.getElementById('ym2').innerHTML="per year";
+                document.getElementById('ym3').innerHTML="per year";
+            }
+            else{
+                pkg=0;
+                document.getElementById('ym1').innerHTML="per month";
+                document.getElementById('ym2').innerHTML="per month";
+                document.getElementById('ym3').innerHTML="per month";
+            }
+            calc(dat);
+        }
+       
+    </script>
+    </head>
+    <body>
+        <aside id="top">
+        <div class="container" style="position:relative;">
+            <div style="padding:0;top:0;left:0;">
+            <h1>Looking for a lollipop alternative?</h1>
+            <p>Lorem ipsum is a simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <button id="bt1" class="button">Primary CTA</button>
+            <button id="bt2" class="button1">Secondary CTA</button>
+            </div>
+            
+        </div>
+            <div class="g1">
+            <img  src="image/globe1.jpg" width="180" height="180" align="right">
+                </div>
+        </aside>
+        
+        <section id="=table" align="center">
+        <div class="ct"  top="700px" style="background:darkgray;width:70%;"  height="700">
+            <h1>This is a Heading in two lines</h1>
+         </div>
+            <div class="tab">
+                <img src="image/Group%206.png" width="630px" height="490px">
+            
+            </div>
+        </section>
+        <section id="selection">
+        <div class="cserve">
+            <h1 align="center"> Compare pricing today!</h1>
+            <p align="center">Lorem ipsum is a simply dummy text of the printing and typesetting</p>
+            
+            <div class="btn-group" align="center" id="btn1">
+            <button onclick="calc(25)" id="lb1" align="center" value="25">  25 Serving    </button>
+            <button onclick="calc(50)" id="lb2" align="center" value="50">  50 Serving    </button>
+            <button onclick="calc(100)" id="lb3" align="center" value="100">  100 Serving   </button>
+            <button onclick="calc(200)" id="lb4" align="center" value="200">  200 Serving   </button>
+            <p id="sample"></p>
+            </div>
+            
+            </div>
+        </section>
+        
+        
+        
+    <section onclick="tg()" class="tgl">
+        <label class="switch">
+       <input type="checkbox" checked>
+         <span class="slider round"></span>
+         </label>
+        <p class="s1">Annual</p>
+        <p class="s3">50% off</p>
+        <p class="s2">Monthly</p>
+
+     </section>
+        
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>lollipop</h3>
+      <h4>$<span id="lp"></span></h4><p ><span id="ym1"></span></p>
+      <p id="p1">For <span id="sid"></span> serving</p>
+    </div>
+  </div>
+
+  <div class="column" >
+    <div class="card">
+      <h3>Icecandy</h3>
+        <h4>$<span id="ic"></span></h4>
+      <p ><span id="ym2"></span></p>
+      <p id="p1">For <span id="sid2"></span> serving</p>
+    </div>
+    </div>
+        </div>
+
+  <div class="row1">
+  <div class="column1">
+    <div class="card3">
+      <h3>Your savings with lollipop</h3>
+        <h4>$<span id="diff"></span></h4>
+        <p><span id="ym3">per month</span></p>
+    </div>
+    </div>
+        </div>
+        
+<section class="word">
+       <div class="w1">
+        <h1 text-align="center">Here's what our customers have to say</h1>
+    </div>
+    <div class="w2">
+        <h2>&#8220;</h2>
+    </div>
+    <div class="w3">
+        <p text-align="right">Lorem ipsum is a simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="w4">
+        <h3 text-align="right">Raja Ram</h3>
+    </div>
+    <div class="w5">
+        <p text-align="right">Tip World</p>           
+    </div>
+        </section>
+
+<div class="im">
+        <img src="image/man.jpg" height="250px" style="border-radius:120px;" width="250px">
+        </div>
+<div class="ls1">
+        <h1>Loved by users,recommended by experts</h1>
+        </div>
+    <div class="ls2">
+        <p>Lorem ipsum is a simply dummy text of the printing and typesetting industry.Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+        <button class="btt1">Primary CTA</button>
+       <div class="im1"> 
+    <img src="image/Group%204.png" height="300px" width="250px">      
+        </div>
+    </body>
+</html>
